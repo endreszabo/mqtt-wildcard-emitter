@@ -1,0 +1,19 @@
+{
+  "name": "mqtt-wildcard-emitter",
+  "version": "0.9.0",
+  "description": "MQTT but as an Emitter with wildcards",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/endreszabo/mqtt-wildcard-emitter",
+  "author": "Endre Szabo",
+  "license": "GPLv2",
+  "dependencies": {
+    "mqtt": "^4.3.6",
+    "mqtt-wildcard": "^3.0.9"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.2.3"
+  }
+}
